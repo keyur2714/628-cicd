@@ -27,8 +27,13 @@ public class CustomerController {
 		customers.clear();
 		CustomerDTO customerDTO1 = new CustomerDTO(11l, "Keyur", "Pune", "7387029671", "keyurjava27@gmail.com");
 		CustomerDTO customerDTO2 = new CustomerDTO(12l, "Denish", "Surat", "7387029661", "denishjava26@gmail.com");
+		CustomerDTO customerDTO3 = new CustomerDTO(13l, "Vinit", "Bardoli", "7387029631", "vinitjava26@gmail.com");
+		CustomerDTO customerDTO4 = new CustomerDTO(14l, "Ami", "Bharuch", "7387029662", "amijava26@gmail.com");
+		
 		customers.add(customerDTO1);
 		customers.add(customerDTO2);
+		customers.add(customerDTO3);
+		customers.add(customerDTO4);
 		return customers;
 	}
 
